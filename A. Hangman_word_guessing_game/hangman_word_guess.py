@@ -1,11 +1,10 @@
 import hangman_database
 import random
-
-# Ascii art
 import ascii_art_hangman
-print(ascii_art_hangman.logo)
 
-chosen_word = random.choice(hangman_database.word_list)
+print(ascii_art_hangman.logo)    # Ascii art
+
+chosen_word = random.choice(hangman_database.word_list) # Choosing the random answer
 word_length = len(chosen_word)
 
 lives = 8
@@ -16,17 +15,16 @@ print("\nYou have only 8 lives. Every wrong guess takes 1 life. You have to gues
 for _ in range(word_length):
     display += "_"
 print((f"The length of the word is: {word_length}"))
-print(f"Here is your word: {display}\n")
+print(f"Here is your word: {display}\n")    # Display blank spaces 
 
 end_of_game = False
 while not end_of_game:
     guess = input("\nGuess a letter: ").lower()
 
     for position in range(word_length):
-        letter = chosen_word[position]
-
+        letter = chosen_word[position]    
         if letter == guess:
-            display[position] = letter
+            display[position] = letter    # Insert correct letters 
 
     if guess in display:
         print(f"\nYou've guessed '{guess}'. It's the correct guess!\n")
@@ -43,5 +41,5 @@ while not end_of_game:
         end_of_game = True
         print(f"You win! The word is: {chosen_word}")
 
-    # Ascii art
-    print(f"\nPresent condition of the Hangman: {ascii_art_hangman.stages[lives]}")
+
+    print(f"\nPresent condition of the Hangman: {ascii_art_hangman.stages[lives]}")    # Ascii art
