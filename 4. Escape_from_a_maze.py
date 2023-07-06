@@ -6,7 +6,7 @@ def right():   # Function to turn right
     turn_left()
     turn_left()
 
-while front_is_clear():   # Function to check if front is clear (This function needed before at_goal to solve certain infinite path problems
+while front_is_clear():   # Function to check if the front is clear (This function is needed before at_goal to solve certain infinite path problems)
     move()
 turn_left()
 
