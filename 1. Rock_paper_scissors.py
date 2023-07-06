@@ -30,7 +30,7 @@ scissors = '''
 
 choice=''
 while choice.lower() != 'no': # Taking multiple inputs
-    com = random.randint(0, 2) # Randint function to take a random number between the given two integers
+    com = random.randint(0, 2) # Randint function -> To take a random number between the given two integers
     a = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
     if a == com:
         print("You both choose the same. Match drawn")
