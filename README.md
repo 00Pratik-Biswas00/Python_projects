@@ -7,4 +7,5 @@
 👉 3. Jumping_over_hurdles -> Reedborg website link ⬇️ (You can play different hurdle games here)
        http://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json
     
-
+👉 4. Escape_from_a_maze -> Reedborg website link ⬇️ 
+       https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json
