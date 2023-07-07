@@ -1,3 +1,27 @@
+ascii_art = '''
+
+                                                                             
+                         %%                                                     
+                        %%%%%%%%%                                               
+                         %%  %%%%%%%%%%                                         
+                        %%%%%%%%%  %%%%%%                                       
+                       %%%%%%%%%%%%%%%                                          
+                      %%%%%%%%%%%%%%                                            
+                     %%%%%%%%%%%%%%                                             
+                    %%%%%%%%%%%%%%%%%%%%%                                       
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%/                               
+               %%%  %%%%%%%%%%%%    %%%%%%%%%%%%%%%%%%%%                        
+               %%%%%%%%%  %%%%%          %%%%%%%%%%%%%%%%%%%%%%                 
+                   %%%%%%%%%%(                 %%%%%%%%%%%%%%%%%%%%%%%          
+                         %%%%%%%                    %%%%%%%%%%%%%%%%%%%%        
+                                                         %%%%%%%%%%%%%%%%       
+                                                              %%%%%%%%%%        
+         %%%%%%%%%%%%%%%%%%%%%%%%%%%%                                           
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                         
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+'''
+
 import os
 # In order for your terminal commands under os.system() to work, you need to emulate your terminal inside the output console. Select 'Edit Configurations' from the 'Run' menu.
 # Under the 'Execution' section, select 'Emulate terminal in output console'.
@@ -13,11 +37,12 @@ def highest_bidder(record_bid):
         if bid_amount > high_bid:
             high_bid = bid_amount
             winner = bidder
-    print(f"{winner} is placed the highest bid: {high_bid}")    # Returns the highest bidder
+    print(f"{winner} is placed the highest bid: {high_bid}\n")    # Returns the highest bidder
     print(dic)    # Retruns all the bids
 
 
 while not finish_bid:
+    print(ascii_art)
     name = input("Name of the bidder: ")
     bid = int(input("Enter your bid: Rs. "))
     dic[name] = bid
