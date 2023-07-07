@@ -1,6 +1,20 @@
 import random
+ascii_art = '''
 
-print("Welcome to the guessing game! \nI am thinking of a number between 1 and 100.\n")
+
+  _   _                 _                                           
+ | \ | |               | |                                          
+ |  \| |_   _ _ __ ___ | |__   ___ _ __    __ _ _   _  ___  ___ ___ 
+ | . ` | | | | '_ ` _ \| '_ \ / _ \ '__|  / _` | | | |/ _ \/ __/ __|
+ | |\  | |_| | | | | | | |_) |  __/ |    | (_| | |_| |  __/\__ \__ /
+ |_| \_|\__,_|_| |_| |_|_.__/ \___|_|     \__, |\__,_|\___||___/___/
+                                           __/ |                    
+                                          |___/                     
+
+'''
+
+print(ascii_art)
+print("\n\nI am thinking of a number between 1 and 100.\n")
 answer = random.randint(1, 101)
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
