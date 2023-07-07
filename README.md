@@ -12,9 +12,9 @@
 📄 4. Escape_from_a_maze -> Reedborg website link ⬇️ 
        https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json
 
-📄 5. Encode_decode_messages -> 
+📄 5. Encode_decode_messages -> Using this code you can encoded your messages for getting better security. You have to enter the message and the shift number by which the letter will be increment. Similarly you can decode any message if you know the shift nunber. 
 
-📄 6. Auction_program ->
+📄 6. Auction_program -> You can play an auction game with your friends, after bidding each time the screen will be clear and next person will come for bidding. The highest bidder will win the match.
 
 📄 7.
 
