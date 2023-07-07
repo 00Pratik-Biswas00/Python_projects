@@ -1,11 +1,21 @@
 # Python_projects
 
-👉 1. Rock_paper_scissors -> It is a basic rock-paper-scissor game that we all have played. Ascii art is given to make the result more presentable.
+📁 A. Hangman_word_guessing_game -> 
 
-👉 2. Password_generator ->
+📄 1. Rock_paper_scissors -> It is a basic rock-paper-scissor game that we all have played. Ascii art is given to make the result more presentable.
 
-👉 3. Jumping_over_hurdles -> Reedborg website link ⬇️ (You can play different hurdle games here)
+📄 2. Password_generator ->
+
+📄 3. Jumping_over_hurdles -> Reedborg website link ⬇️ (You can play different hurdle games here)
        http://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json
     
-👉 4. Escape_from_a_maze -> Reedborg website link ⬇️ 
+📄 4. Escape_from_a_maze -> Reedborg website link ⬇️ 
        https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json
+
+📄 5. Encode_decode_messages -> 
+
+📄 6. Auction_program ->
+
+📄 7.
+
+📄 8.
