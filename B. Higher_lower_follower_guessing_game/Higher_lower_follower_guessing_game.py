@@ -18,7 +18,7 @@ def lost():    # Lossing statement
 
 
 while not is_continue:    
-    compare_A = random.choice(info.data)
+    compare_A = random.choice(info.data)    # Randomly choosing data from the database
     against_A = random.choice(info.data)
     print(f"\nCompare: {compare_A['name']}, a {compare_A['description']} from {compare_A['country']}.")
     print(art.vs)
