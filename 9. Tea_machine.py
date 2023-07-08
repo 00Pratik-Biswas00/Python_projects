@@ -1,4 +1,5 @@
-MENU = {
+# Database
+MENU = {    
     "green tea": {
         "ingredients": {
             "water": 240,
@@ -33,7 +34,7 @@ resources = {
 }
 
 
-def sufficient_resources(order_ingredients):
+def sufficient_resources(order_ingredients):    # Checking if there are enough resources present
     for items in order_ingredients:
         if resources[items] < order_ingredients[items]:
             print(f"Sorry there is not enough {items} ")
@@ -41,7 +42,7 @@ def sufficient_resources(order_ingredients):
     return True
 
 
-def process_coins():
+def process_coins():    # Inserting coins
     print("Please insert coins: ")
     total = int(input("Enter number of ₹1 coins: ")) * 1
     total += int(input("Enter number of ₹2 coins: ")) * 2
@@ -53,7 +54,7 @@ def process_coins():
     return total
 
 
-def successful_transaction(money_recieved, drink_cost):
+def successful_transaction(money_recieved, drink_cost):    # Checking if the transaction is successful
     if money_recieved >= drink_cost:
         change = round((money_recieved - drink_cost), 2)
         print(f"Here is the ₹ {change} change ")
@@ -65,7 +66,7 @@ def successful_transaction(money_recieved, drink_cost):
         return False
 
 
-def make_coffee(drink_name, order_ingredients):
+def make_coffee(drink_name, order_ingredients):    # Making the coffee
     for items in order_ingredients:
         resources[items] -= order_ingredients[items]
     print(f"Here is your {drink_name} ☕. Enjoy!")
@@ -75,10 +76,10 @@ is_on = True
 
 while is_on:
     choice = input(
-        "What would you like? (Green tea/Assam tea/Darjeeling tea) | If you don't want anything write Off | If you want to see the available resources then write Report: ").lower()
-    if choice == "off":
+        "What would you like? (Green tea/Assam tea/Darjeeling tea) | If you don't want anything, write Off | If you want to see the available resources, then write Report: ").lower()
+    if choice == "off": # Terminate the program
         is_on = False
-    elif choice == "report":
+    elif choice == "report":    # Details of the resources
         print(
             f"Resources we currently have:\nWater: {resources['water']} ml\nMilk: {resources['milk']} ml\nTea leaves: {resources['tea_leaves']} tablespoon\nProfit till now: ₹ {profit}\n")
     else:
