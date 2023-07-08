@@ -2,6 +2,9 @@
 
 📁 A. Hangman_word_guessing_game -> 
 
+📁 B. Higher_lower_follower_guessing_game -> Higher lower game link ⬇️ 
+		http://www.higherlowergame.com/
+
 📄 1. Rock_paper_scissors -> It is a basic rock-paper-scissor game that we all have played. Ascii art is given to make the result more presentable.
 
 📄 2. Password_generator -> This code will generate a solid password. You have to select how many characters, symbols, and numbers you want in your password.
