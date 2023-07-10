@@ -5,6 +5,10 @@
 📁 B. Higher_lower_follower_guessing_game -> Higher lower game link ⬇️ 
 		http://www.higherlowergame.com/
 
+📁 C. True_false_quiz_game ->
+
+📁 D. Play_with_turtle ->
+
 📄 1. Rock_paper_scissors -> It is a basic rock-paper-scissor game that we all have played. Ascii art is given to make the result more presentable.
 
 📄 2. Password_generator -> This code will generate a solid password. You have to select how many characters, symbols, and numbers you want in your password.
@@ -23,3 +27,5 @@
 		https://games.washingtonpost.com/games/blackjack
 
 📄 8. Number_guessing_game -> You have two levels, easy (contains ten chances) and hard (contains five chances). Based on your previous outputs, you have to guess the correct number the computer chooses.  
+
+📄 9. Tea_machine -> 
