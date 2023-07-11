@@ -2,7 +2,7 @@ from turtle import Turtle, Screen
 
 t = Turtle()
 screen = Screen()
-screen.setup(height=500, width=500)
+screen.setup(height=500, width=500)  # Setting the screen size
 screen.textinput(title="Sketch App",
                  prompt="Write 'Go' to continue! \n\nBasic rules: \nw -> Move forward \ns -> Move backward \nl -> Turn left \nr -> Turn right \nu -> Pen up \nd -> Pen down\nc -> Clear the screen")
 
