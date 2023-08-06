@@ -1,13 +1,15 @@
 # Python_projects
 
-📁 A. Hangman_word_guessing_game -> 
+📁 A. Hangman_word_guessing_game -> It's a similar game like the Wordle game, you have to guess the correct word by guessing the letters.
 
 📁 B. Higher_lower_follower_guessing_game -> Higher lower game link ⬇️ 
 		http://www.higherlowergame.com/
 
-📁 C. True_false_quiz_game ->
+📁 C. True_false_quiz_game -> It's a T/F game, where you have to determine whether the answer is true or false and based on your answer your score will be updated.
 
-📁 D. Play_with_turtle ->
+📁 D. Play_with_turtle -> Draw different things using the turtle.
+
+📁 E. Snake_game -> Play the snake game and increase your score.
 
 📄 1. Rock_paper_scissors -> It is a basic rock-paper-scissor game that we all have played. Ascii art is given to make the result more presentable.
 
@@ -28,4 +30,4 @@
 
 📄 8. Number_guessing_game -> You have two levels, easy (contains ten chances) and hard (contains five chances). Based on your previous outputs, you have to guess the correct number the computer chooses.  
 
-📄 9. Tea_machine -> 
+📄 9. Tea_machine -> You can order 3 different teas and based on the resources and the amount you enter it will make a tea for you. 
