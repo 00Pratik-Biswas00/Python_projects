@@ -1,13 +1,8 @@
-import turtle
-from turtle import *
+from turtle import Turtle, Screen
+t = Turtle()
 
 # screen for output
-screen = turtle.Screen()
-
-# Defining a turtle Instance
-t = turtle.Turtle()
-speed(0)
-
+screen = Screen()
 
 # functions to reduce some lines
 def pos_change(x, y):
@@ -112,4 +107,4 @@ for i in range(24):
     t.left(15)
 
 # Hold the output window
-turtle.done()
+screen.exitonclick()
