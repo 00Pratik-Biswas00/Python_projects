@@ -1,15 +1,23 @@
 # Python_projects
 
-📁 A. Hangman_word_guessing_game -> It's a similar game like the Wordle game, you have to guess the correct word by guessing the letters.
+📁 A. Hangman_word_guessing_game -> It's a similar game to the Wordle game, you have to guess the correct word by guessing the letters.
 
 📁 B. Higher_lower_follower_guessing_game -> Higher lower game link ➡️
 		http://www.higherlowergame.com/
 
-📁 C. True_false_quiz_game -> It's a T/F game, where you have to determine whether the answer is true or false and based on your answer your score will be updated.
+📁 C. True_false_quiz_game -> It's a T/F game, where you have to determine whether the answer is true or false, and based on your answer your score will be updated.
 
 📁 D. Play_with_turtle -> Draw different things using the turtle.
 
 📁 E. Snake_game -> Play the snake game and increase your score.
+
+📁 F. Pong_game - You can play with another user, and both of you have to control the ball using the paddle, if it crosses the right or left side the opponent will win.
+
+📁 G. Turtle_Crossing_Game -> It's a road-crossing game. You gonna help a turtle to cross the road safely by avoiding accidents. After each successful crossing the speed of the car will increase, so be careful.
+
+📁 H. Find_The_States_Uts_Capital_Of_India_In_Map -> You will be given a GUI of the map of the India. Guess all the states and UTs correctly and that will be placed at the proper coordinate.
+
+📁 I. Pomodoro_Stopwatch -> It's a stopwatch that follows the famous Pomodoro technique which states work for 25 mins, take a 5 mins short break, work for 25 mins, take a 5 mins short break, work for 25 mins, take a 5 mins short break, work for 25 mins, take a 20 mins long break. Continue...
 
 📄 1. Rock_paper_scissors -> It is a basic rock-paper-scissor game that we all have played. Ascii art is given to make the result more presentable.
 
@@ -31,3 +39,5 @@
 📄 8. Number_guessing_game -> You have two levels, easy (contains ten chances) and hard (contains five chances). Based on your previous outputs, you have to guess the correct number the computer chooses.  
 
 📄 9. Tea_machine -> You can order 3 different teas and based on the resources and the amount you enter it will make a tea for you. 
+
+📄 10. Km_to_mile_converter_using_tkinter_GUI -> It's a simple km-to-mile converter, where you will enter your distance in km, and it will provide the equivalent miles. It'll not run on a console, you can experience a graphical user interface.
