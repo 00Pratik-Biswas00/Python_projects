@@ -19,6 +19,16 @@
 
 📁 I. Pomodoro_Stopwatch -> It's a stopwatch that follows the famous Pomodoro technique which states work for 25 mins, take a 5 mins short break, work for 25 mins, take a 5 mins short break, work for 25 mins, take a 5 mins short break, work for 25 mins, take a 20 mins long break. Continue...
 
+📁 J. Password_Manager -> Generates strong passwords and also save your passwords.
+
+📁 K. French_English_Word_Game -> A flashcard game where you have to choose the correct English word of a given French word within 3 secs.
+
+📁 L. Sending_Emails_Using_Pyhton -> 
+# 1. Change MY_EMAIL/MY_PASSWORD to your details.
+# 2. Go to your email provider and make it allow less secure apps.
+# 3. Update the SMTP ADDRESS to match your email provider.
+# 4. Update birthdays.csv to contain today's month, day, emails, and names.
+
 📄 1. Rock_paper_scissors -> It is a basic rock-paper-scissor game that we all have played. Ascii art is given to make the result more presentable.
 
 📄 2. Password_generator -> This code will generate a solid password. You have to select how many characters, symbols, and numbers you want in your password.
